@@ -1,0 +1,18 @@
+
+{
+  "name": "LTI Javascript app wrapper",
+  "description": "A server application that turns any Javascript app into an LTI tool provider.",
+  "keywords": [
+    "lti",
+    "rails",
+    "javascript"
+  ],
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "env": {
+    "LANG": "en_US.UTF-8",
+    "RAILS_ENV": "production",
+    "RACK_ENV": "production"
+  }
+}
