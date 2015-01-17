@@ -2,7 +2,7 @@
 
 This server application turns any Javascript app into an [IMS LTI 1.1](http://www.imsglobal.org/LTI/v1p1/ltiIMGv1p1.html) tool provider. [Edu Apps](https://www.edu-apps.org) has a good [description of how LTI works](https://www.edu-apps.org/code.html).
 
-The benefits of servering your Javascript app as an LTI Tool instead of a simple page are:
+The benefits of serving your Javascript app as an LTI Tool instead of a simple page are:
 - Your Javascript app will know the identity of the learner, passed from the LTI Tool Consumer
 - Your app can send a result back to the LTI Tool Consumer at the end with the learner's percentage grade
 - You can launch it from an LTI Tool Consumer such as [Coursera](https://tech.coursera.org/app-platform/lti/)

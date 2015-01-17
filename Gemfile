@@ -20,6 +20,10 @@ gem 'coffee-rails', '~> 4.1.0'
 # https://devcenter.heroku.com/articles/rails-integration-gems
 gem 'rails_12factor'
 
+# For admin UI
+gem 'rails_admin'
+gem 'bootstrap-wysihtml5-rails', '> 0.3.1.24'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
